@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+ background-color: rgb(1, 26, 89);
+}
+
+header{
+    background-color: white;
+    padding: 15px 0px;
+}
+
+.btn-play{
+    border: none;
+    background-color: rgb(3, 4, 70);
+    border-radius: 0px;
+    color: white;
+}
+
+.btn-play:hover{
+    background-color:  rgb(1, 26, 89);
+    color: white;
+
+}
+
+main{
+    max-width: 1140px;
+    margin: 10px auto ;
+    display: flex;
+    justify-content: center;
+}
+
+#grid{
+    width: 1000px;
+    height: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: yellow;
+}
+.square{
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    border: 1px solid white;
+}
