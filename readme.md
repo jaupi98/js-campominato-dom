@@ -14,3 +14,14 @@ SOTTO PROBLEMA 2 :Ogni cella ha un numero progressivo, da 1 a 100. Ci saranno qu
 2 aggiungo l'event listeren alla casella 
 3  al click la casella si colora di azzuro 
 4- al click della casella mostro in console il numero della casella cliccata 
+
+Bonus (da fare solo una volta finito l'esercizio base)
+Aggiungere una select accanto al bottone di generazione, che fornisca una scelta tra tre diversi livelli di difficoltà:
+- con difficoltà 1 => 100 caselle, con un numero compreso tra 1 e 100, divise in 10 caselle per 10 righe;
+- con difficoltà 2 => 81 caselle, con un numero compreso tra 1 e 81, divise in 9 caselle per 9 righe;
+- con difficoltà 3 => 49 caselle, con un numero compreso tra 1 e 49, divise in 7 caselle per 7 righe;
+
+SOLUZIONE
+1 Aggiungere la select al dom
+2 al click del pulsante recuperare il valore selezionato dalla select
+3 generare la griglia in base al valore della select
