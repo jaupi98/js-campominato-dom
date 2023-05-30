@@ -35,7 +35,6 @@ main{
 
 #grid{
     width: 1000px;
-    height: 1000px;
     display: flex;
     flex-wrap: wrap;
     background-color: yellow;
@@ -45,4 +44,11 @@ main{
     height: 100px;
     background-color: grey;
     border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.square.clicked{
+    background-color:lightskyblue;
 }
